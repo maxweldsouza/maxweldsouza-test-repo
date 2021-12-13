@@ -9,7 +9,8 @@
   "release": {
     "branches": [
       "master",
-      "next"
+      "next",
+      { "name": "beta", "prerelease": true }
     ]
   },
   "main": "index.js",
