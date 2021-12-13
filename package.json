@@ -1,6 +1,6 @@
 {
   "name": "maxweldsouza-test-repo",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "description": "",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
     "branches": [
       "master",
       "next",
-      "beta"
+      { "name": "beta", "prerelease": true }
     ]
   },
   "main": "index.js",
