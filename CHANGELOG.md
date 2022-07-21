@@ -1,3 +1,17 @@
+# [1.18.0](https://github.com/maxweldsouza/maxweldsouza-test-repo/compare/v1.17.0...v1.18.0) (2022-07-21)
+
+
+### Bug Fixes
+
+* Disable persist credentials ([38b11b8](https://github.com/maxweldsouza/maxweldsouza-test-repo/commit/38b11b8301d2d708a661a9b5ec8eefdc4d3693ba))
+
+
+### Features
+
+* Custom github token ([d7c8584](https://github.com/maxweldsouza/maxweldsouza-test-repo/commit/d7c8584b24e0ae154ced4657533b698a56f86127))
+* Switch to git ([beaf972](https://github.com/maxweldsouza/maxweldsouza-test-repo/commit/beaf9721ba6f386ea9221068cf053de0d76ca103))
+* Update 6 ([874b7b8](https://github.com/maxweldsouza/maxweldsouza-test-repo/commit/874b7b822f81c018d982f2f429a8866ecacabc43))
+
 # [1.17.0](https://github.com/maxweldsouza/maxweldsouza-test-repo/compare/v1.16.0...v1.17.0) (2022-07-21)
 
 
