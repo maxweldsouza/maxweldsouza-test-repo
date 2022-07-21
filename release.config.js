@@ -18,7 +18,12 @@ module.exports = {
         assets: "release/*.tgz",
       },
     ],
-    "@semantic-release/git",
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md"]
+      }
+    ]
   ],
   preset: "angular",
 };
