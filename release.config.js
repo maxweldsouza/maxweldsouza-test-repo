@@ -7,6 +7,12 @@ module.exports = {
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     [
+      "semantic-release-github-pullrequest", {
+      "assets": ["CHANGELOG.md"],
+      "baseRef": "main"
+    }
+    ],
+    [
       "@semantic-release/npm",
       {
         tarballDir: "release",
@@ -18,12 +24,6 @@ module.exports = {
         assets: "release/*.tgz",
       },
     ],
-    [
-      "@semantic-release/git",
-      {
-        "assets": ["CHANGELOG.md"]
-      }
-    ]
   ],
   preset: "angular",
 };
