@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/maxweldsouza/maxweldsouza-test-repo/compare/v1.16.0...v1.17.0) (2022-07-21)
+
+
+### Features
+
+* Update 5 ([59d1b20](https://github.com/maxweldsouza/maxweldsouza-test-repo/commit/59d1b20c9848b487fdf556a11910061c78acb7df))
+
 # [1.16.0](https://github.com/maxweldsouza/maxweldsouza-test-repo/compare/v1.15.1...v1.16.0) (2022-07-21)
 
 
