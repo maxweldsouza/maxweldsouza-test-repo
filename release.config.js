@@ -1,11 +1,17 @@
 module.exports = {
   "release": {
-    "branches": ["main", { "name": "beta", "prerelease": true }]
+    "branches": ["master", { "name": "beta", "prerelease": true }]
   },
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
+    [
+      "semantic-release-github-pullrequest", {
+      "assets": ["CHANGELOG.md"],
+      "baseRef": "main"
+    }
+    ],
     [
       "@semantic-release/npm",
       {
@@ -18,12 +24,6 @@ module.exports = {
         assets: "release/*.tgz",
       },
     ],
-    [
-      "@semantic-release/git",
-      {
-        "assets": ["CHANGELOG.md"]
-      }
-    ]
   ],
   preset: "angular",
 };
