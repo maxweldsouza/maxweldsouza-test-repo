@@ -6,12 +6,6 @@
     "type": "git",
     "url": "git+https://github.com/maxweldsouza/maxweldsouza-test-repo.git"
   },
-  "release": {
-    "branches": [
-      "main",
-      "next"
-    ]
-  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
