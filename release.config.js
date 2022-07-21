@@ -9,7 +9,7 @@ module.exports = {
     [
       "semantic-release-github-pullrequest", {
       "assets": ["CHANGELOG.md"],
-      "baseRef": "main"
+      "baseRef": "master"
     }
     ],
     [
